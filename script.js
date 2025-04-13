@@ -122,13 +122,7 @@ const popupContent = `
     <p><strong>Facilities:</strong> ${(Array.isArray(facilities) && facilities.length > 0) ? facilities.join(', ') : '—'}</p>
   </div>`;
 
-      const marker = L.marker([lat, lon], {
-        icon: L.icon({
-          iconUrl: getIconUrl(type),
-          iconSize: [24, 24],
-          iconAnchor: [12, 24]
-        })
-      });
+      const marker = L.marker([lat, lon]);
 
       marker.bindPopup(popupContent);
 
