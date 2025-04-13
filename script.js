@@ -196,13 +196,3 @@ setTimeout(() => {
   addControlPanel();
 }, 800);
 
-// Optional: intro overlay fade
-const introOverlay = document.getElementById('intro-overlay');
-if (introOverlay) {
-  introOverlay.addEventListener('click', () => {
-    introOverlay.style.opacity = 0;
-    setTimeout(() => {
-      introOverlay.style.display = 'none';
-    }, 800);
-  });
-}
