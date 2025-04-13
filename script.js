@@ -99,8 +99,6 @@ function getIconUrl(type) {
 const campingGroup = L.layerGroup().addTo(map);
 const cabinGroup = L.layerGroup().addTo(map);
 const hostelGroup = L.layerGroup().addTo(map);
-const companionGroup = L.layerGroup().addTo(map);
-let allCompanionMarkers = [];
 
 fetch('data/updated_places.geojson')
   .then(res => res.json())
@@ -116,8 +114,6 @@ fetch('data/updated_places.geojson')
         })
       });
 
-      marker.featureCompanions = companions;
-
       const popupContent = `
         <div style="max-width: 240px;">
           <h4>${name}</h4>
@@ -130,8 +126,6 @@ fetch('data/updated_places.geojson')
         </div>`;
 
       marker.bindPopup(popupContent);
-      allCompanionMarkers.push(marker);
-      companionGroup.addLayer(marker);
 
       if (type === 'Camping') campingGroup.addLayer(marker);
       else if (type === 'Cabin') cabinGroup.addLayer(marker);
@@ -156,9 +150,6 @@ function addControlPanel() {
     boxShadow: '0 2px 5px rgba(0,0,0,0.2)',
     zIndex: 1000
   });
-
-  const companions = ['Soph', 'Katie', 'Kota', 'Naru', 'Liz', 'Kath', 'Jackie', 'Vivienne', 'Emily', 'Mario', 'Lizzie', 'Patrick', 'Becky'];
-  const companionCheckboxes = companions.map(name => `<label><input type="checkbox" class="companion-filter" value="${name}" checked> ${name}</label><br>`).join('');
 
   panel.innerHTML = `
     <label><input type="checkbox" id="toggle-walked" checked> Show Walked</label><br>
@@ -194,18 +185,6 @@ function addControlPanel() {
     e.target.checked ? hostelGroup.addTo(map) : map.removeLayer(hostelGroup);
   });
 
-  panel.querySelectorAll('.companion-filter').forEach(input => {
-    input.addEventListener('change', () => {
-      const selected = [...panel.querySelectorAll('.companion-filter')]
-        .filter(i => i.checked)
-        .map(i => i.value);
-
-      companionGroup.clearLayers();
-      allCompanionMarkers.forEach(marker => {
-        const withList = marker.featureCompanions || [];
-        if (selected.every(sel => withList.includes(sel))) {
-          companionGroup.addLayer(marker);
-        }
       });
     });
   });
