@@ -86,15 +86,6 @@ function updateDistanceBox() {
   `;
 }
 
-function getIconUrl(type) {
-  switch (type) {
-    case 'Camping': return 'icons/tent.png';
-    case 'Cabin': return 'icons/cabin.png';
-    case 'Hostel': return 'icons/hostel.png';
-    default: return 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png';
-  }
-}
-
 const campingGroup = L.layerGroup().addTo(map);
 const cabinGroup = L.layerGroup().addTo(map);
 const hostelGroup = L.layerGroup().addTo(map);
