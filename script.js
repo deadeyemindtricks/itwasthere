@@ -126,8 +126,6 @@ fetch('data/updated_places.geojson')
           <p><strong>Facilities:</strong> ${facilities.join(', ')}</p>
         </div>`;
 
-      marker.bindPopup(popupContent);
-
       if (type === 'Camping') campingGroup.addLayer(marker);
       else if (type === 'Cabin') cabinGroup.addLayer(marker);
       else if (type === 'Hostel') hostelGroup.addLayer(marker);
