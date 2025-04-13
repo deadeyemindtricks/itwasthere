@@ -111,16 +111,16 @@ fetch('data/updated_places.geojson')
       const facilityList = Array.isArray(facilities) ? facilities.join(', ') : '';
       const stars = rating && !isNaN(rating) ? '⭐'.repeat(rating) : '';
 
-      const popupContent = `
-        <div style="max-width: 240px;">
-          <h4>${name}</h4>
-          ${photoUrl ? `<img src="${photoUrl}" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" onerror="this.style.display='none'">` : ''}
-          <p><strong>Type:</strong> ${type}</p>
-          <p><strong>Memory:</strong> ${memory}</p>
-          <p><strong>Rating:</strong> ${stars}</p>
-          <p><strong>With:</strong> ${companionList}</p>
-          <p><strong>Facilities:</strong> ${facilityList}</p>
-        </div>`;
+const popupContent = `
+  <div style="max-width: 240px;">
+    <h4>${name}</h4>
+    <img src="${photo}" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" onerror="this.style.display='none'">
+    <p><strong>Type:</strong> ${type}</p>
+    <p><strong>Memory:</strong> ${memory}</p>
+    <p><strong>Rating:</strong> ${'⭐'.repeat(rating)}</p>
+    <p><strong>With:</strong> ${(Array.isArray(companions) && companions.length > 0) ? companions.join(', ') : '—'}</p>
+    <p><strong>Facilities:</strong> ${(Array.isArray(facilities) && facilities.length > 0) ? facilities.join(', ') : '—'}</p>
+  </div>`;
 
       const marker = L.marker([lat, lon], {
         icon: L.icon({
