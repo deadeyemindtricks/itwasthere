@@ -2,6 +2,9 @@
 // Basic Leaflet map init
 const map = L.map('map');
 const allBounds = L.latLngBounds();
+var corner1 = L.latLng(-29.918, 154.909),
+corner2 = L.latLng(-51.429, -165.875),
+bounds = L.latLngBounds(corner1, corner2);
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
