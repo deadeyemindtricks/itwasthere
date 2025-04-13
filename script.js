@@ -1,10 +1,9 @@
-
 // Basic Leaflet map init
 const map = L.map('map');
 const allBounds = L.latLngBounds();
 var corner1 = L.latLng(-29.918, 154.909),
-corner2 = L.latLng(-51.429, -165.875),
-bounds = L.latLngBounds(corner1, corner2);
+    corner2 = L.latLng(-51.429, -165.875),
+    bounds = L.latLngBounds(corner1, corner2);
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
@@ -100,12 +99,14 @@ const campingGroup = L.layerGroup().addTo(map);
 const cabinGroup = L.layerGroup().addTo(map);
 const hostelGroup = L.layerGroup().addTo(map);
 
+// Load markers from geojson
 fetch('data/updated_places.geojson')
   .then(res => res.json())
   .then(data => {
     data.features.forEach(feature => {
       const { name, type, memory, photo, rating, with: companions, facilities } = feature.properties;
       const [lon, lat] = feature.geometry.coordinates;
+
       const marker = L.marker([lat, lon], {
         icon: L.icon({
           iconUrl: getIconUrl(type),
@@ -133,6 +134,7 @@ fetch('data/updated_places.geojson')
     });
   });
 
+// Control panel
 function addControlPanel() {
   const panel = document.createElement('div');
   panel.id = 'control-panel';
@@ -158,9 +160,7 @@ function addControlPanel() {
     <hr>
     <label><input type="checkbox" id="toggle-camping" checked> Show Camping</label><br>
     <label><input type="checkbox" id="toggle-cabins" checked> Show Cabins</label><br>
-    <label><input type="checkbox" id="toggle-hostels" checked> Show Hostels</label><br>
-    <hr>
-    <strong>Filter by Companion</strong><br>${companionCheckboxes}
+    <label><input type="checkbox" id="toggle-hostels" checked> Show Hostels</label>
   `;
 
   panel.querySelectorAll('input').forEach(el => el.style.pointerEvents = 'auto');
@@ -184,25 +184,25 @@ function addControlPanel() {
   panel.querySelector('#toggle-hostels').addEventListener('change', e => {
     e.target.checked ? hostelGroup.addTo(map) : map.removeLayer(hostelGroup);
   });
-
-      });
-    });
-  });
 }
 
+// Load lines
 addLineLayer('data/section1full.geojson', 'blue', 'walked', walkedGroup);
 addLineLayer('data/unwalkedsofar.geojson', 'red', 'unwalked', unwalkedGroup);
 
+// Fit and add controls
 setTimeout(() => {
   map.fitBounds(allBounds, { padding: [50, 50] });
   addControlPanel();
 }, 800);
+
+// Optional: intro overlay fade
 const introOverlay = document.getElementById('intro-overlay');
-
-introOverlay.addEventListener('click', () => {
-  introOverlay.style.opacity = 0;
-  setTimeout(() => {
-    introOverlay.style.display = 'none';
-  }, 800); // Matches the CSS transition time
-});
-
+if (introOverlay) {
+  introOverlay.addEventListener('click', () => {
+    introOverlay.style.opacity = 0;
+    setTimeout(() => {
+      introOverlay.style.display = 'none';
+    }, 800);
+  });
+}
