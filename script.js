@@ -102,7 +102,7 @@ const hostelGroup = L.layerGroup().addTo(map);
 const companionGroup = L.layerGroup().addTo(map);
 let allCompanionMarkers = [];
 
-fetch('data/campsites_with_companions.geojson')
+fetch('data/updated_places.geojson')
   .then(res => res.json())
   .then(data => {
     data.features.forEach(feature => {
