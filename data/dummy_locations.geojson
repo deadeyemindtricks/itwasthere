@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0706,
+          -39.1086
+        ]
+      },
+      "properties": {
+        "name": "Whakahoro Camping Ground",
+        "type": "Camping",
+        "memory": "Playing rummikub with Ben and Soph",
+        "photo": "images/whakahoro.jpg",
+        "rating": 4,
+        "facilities": [
+          "Toilets",
+          "Water",
+          "Shelter"
+        ],
+        "with": [
+          "Ben",
+          "Soph"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.3984,
+          -38.9961
+        ]
+      },
+      "properties": {
+        "name": "Whakapapa Scenic Reserve",
+        "type": "Camping",
+        "memory": "River dip, reunited with Becky and Louisa",
+        "photo": "images/whakapapa.jpg",
+        "rating": 5,
+        "facilities": [
+          "Water"
+        ],
+        "with": [
+          "Mario",
+          "Saskia",
+          "Kota",
+          "Naru",
+          "Becky",
+          "Louisa"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5546,
+          -38.5151
+        ]
+      },
+      "properties": {
+        "name": "Pureora Cabins",
+        "type": "Cabin",
+        "memory": "Carved spoons and made pancakes with Saskia",
+        "photo": "images/pureora.jpg",
+        "rating": 5,
+        "facilities": [
+          "Cabin",
+          "Kitchen"
+        ],
+        "with": [
+          "Saskia",
+          "Kath",
+          "Liz",
+          "Jackie",
+          "Mario",
+          "Patrick"
+        ]
+      }
+    }
+  ]
+}

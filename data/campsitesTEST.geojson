@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.07063213068503,
+          -39.10858717411686
+        ]
+      },
+      "properties": {
+        "name": "Whakahoro Camping Ground",
+        "type": "Camping",
+        "memory": "Playing rummikub with Ben and Soph",
+        "rating": 4,
+        "photo": "images/whakahoro.jpg",
+        "with": [
+          "Ben",
+          "Soph"
+        ],
+        "facilities": [
+          "Toilet",
+          "Water",
+          "Shelter"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5545921269862,
+          -38.515122790048935
+        ]
+      },
+      "properties": {
+        "name": "Pureora Cabins",
+        "type": "Cabin",
+        "memory": "Made pancakes with Saskia for Kath, Liz and Jackie",
+        "rating": 5,
+        "photo": "images/pureora.jpg",
+        "with": [
+          "Saskia",
+          "Kath",
+          "Liz",
+          "Jackie"
+        ],
+        "facilities": [
+          "Kitchen",
+          "Heating",
+          "Electricity"
+        ]
+      }
+    }
+  ]
+}

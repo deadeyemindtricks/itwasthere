@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": { "name": "Sample TA Section" },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [173.0, -42.0],
+        [173.1, -42.1],
+        [173.2, -42.2]
+      ]
+    }
+  }
+  
+  
