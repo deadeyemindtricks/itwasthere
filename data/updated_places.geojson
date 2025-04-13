@@ -1,0 +1,304 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whakahoro Camping Ground",
+        "type": "Camping",
+        "memory": "Playing rummikub with Ben and Soph",
+        "with": [
+          "Ben",
+          "Sophie"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.07063213068503,
+          -39.10858717411686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whakapapa Scenic Reserve",
+        "type": "Camping",
+        "memory": "Wild camping, Mario and Saskia, Kota and Naru were there, I had a dip in the river, Becky and Louisa suprised me by appearing NOBO",
+        "with": [
+          "Mario",
+          "Saskia",
+          "Kota",
+          "Naru",
+          "Becky",
+          "Louisa"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.39837821534252,
+          -38.996076610151206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tongariro Holiday Park",
+        "type": "Camping",
+        "memory": "Met Nicky here. Alaskan Mike appeared after shaving his beard off. Had a good chat with Italian Lea",
+        "with": [
+          "Nicky",
+          "Alaskan Mike",
+          "Italian Lea"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.60384061349313,
+          -39.04592794838131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pureora Cabins",
+        "type": "Cabin",
+        "memory": "Made pancakes with Saskia for Kath, Liz and Jackie! Mario appeared. I carved spoons in my own cabin until Patrick joined on night 2",
+        "with": [
+          "Saskia",
+          "Kath",
+          "Liz",
+          "Jackie",
+          "Mario",
+          "Patrick"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5545921269862,
+          -38.515122790048935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waitomo Top 10 Holiday Park",
+        "type": "Camping",
+        "memory": "Ran into Saskia after a long while. Met Alaskan Mike, Emily and Lizzie here. Had a nice burger over the road and saw the glow worms",
+        "with": [
+          "Saskia",
+          "Alaskan Mike",
+          "Joe",
+          "Emily",
+          "Lizzie"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.110150957661,
+          -38.25989462262593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kaniwhaniwha Campsite",
+        "type": "Camping",
+        "memory": "Celebrated my birthday here with the golden gang. They decorated the camp and brought me a beer and cake :))",
+        "with": [
+          "Levi",
+          "Katie",
+          "Bronnie",
+          "David",
+          "Tom",
+          "Eline",
+          "Ryan",
+          "Emily",
+          "Lucy",
+          "Lucas",
+          "Aileen",
+          "Joe"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.07515100554826,
+          -37.93838810011368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Village Cafe",
+        "type": "Camping",
+        "memory": "We camped here in the cafe grounds. Bar over the road had a cover band (classic metal/rock but can't remember who) - actually pretty good just loud and late!",
+        "with": [
+          "Levi",
+          "Katie",
+          "Bronnie",
+          "Tom",
+          "Eline",
+          "Ryan",
+          "Emily",
+          "Lucy",
+          "Lucas",
+          "Aileen"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.15297311534255,
+          -37.79677212171206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mercer Motel",
+        "type": "Camping",
+        "memory": "Weird place to camp up between a couple of highways. Reunited with Jon and Vivienne here",
+        "with": [
+          "Levi",
+          "Katie",
+          "Bronnie",
+          "Tom",
+          "Eline",
+          "Ryan",
+          "Emily",
+          "Lucy",
+          "Jon",
+          "Vivienne",
+          "Chris",
+          "Jo"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.04691018465746,
+          -37.27914413648927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pakiri Beach Holiday Park",
+        "type": "Camping",
+        "memory": "A nice holiday park, I got here first after storming ahead from the group",
+        "with": [
+          "Levi",
+          "Katie",
+          "Bronnie",
+          "Tom",
+          "Eline",
+          "Ryan",
+          "Emily",
+          "Lucy"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7223765018494,
+          -36.245607309635716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uretiti Beach DOC Campsite",
+        "type": "Camping",
+        "memory": "Beautiful campsite, Katie and I stargazed here",
+        "with": [
+          "Katie"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.45780120184943,
+          -35.93487437377818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ahipara Holiday Park",
+        "type": "Cabin",
+        "memory": "Got fish and chips down the road from this place after our first ever (short) hitch. Had a couple of beers in the cabin and felt good",
+        "with": [
+          "Katie",
+          "Bronnie",
+          "Tom",
+          "Eline",
+          "Emily"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.16139061534253,
+          -35.16023123054686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hone Heke Lodge",
+        "type": "Hostel",
+        "memory": "Wonderful, friendly, helpful people, cannot fault them",
+        "with": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.95931775767127,
+          -35.226811333238096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Twilight Beach Campsite",
+        "type": "Camping",
+        "memory": "The first camp! All of us were trying to work out what we were doing. Wonderful sunset",
+        "with": [
+          "Katie",
+          "Bronnie",
+          "Tom",
+          "Eline",
+          "Emily",
+          "Jon",
+          "Vivienne",
+          "Chris",
+          "Jo"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7034077711644,
+          -34.50668644679774
+        ]
+      }
+    }
+  ]
+}
