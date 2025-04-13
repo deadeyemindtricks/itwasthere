@@ -91,7 +91,7 @@ function getIconUrl(type) {
     case 'Camping': return 'icons/tent.png';
     case 'Cabin': return 'icons/cabin.png';
     case 'Hostel': return 'icons/hostel.png';
-    default: return 'icons/pin.png';
+    default: return 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png';
   }
 }
 
@@ -99,13 +99,28 @@ const campingGroup = L.layerGroup().addTo(map);
 const cabinGroup = L.layerGroup().addTo(map);
 const hostelGroup = L.layerGroup().addTo(map);
 
-// Load markers from geojson
 fetch('data/updated_places.geojson')
   .then(res => res.json())
   .then(data => {
     data.features.forEach(feature => {
       const { name, type, memory, photo, rating, with: companions, facilities } = feature.properties;
       const [lon, lat] = feature.geometry.coordinates;
+
+      const photoUrl = photo || '';
+      const companionList = Array.isArray(companions) ? companions.join(', ') : '';
+      const facilityList = Array.isArray(facilities) ? facilities.join(', ') : '';
+      const stars = rating && !isNaN(rating) ? '⭐'.repeat(rating) : '';
+
+      const popupContent = `
+        <div style="max-width: 240px;">
+          <h4>${name}</h4>
+          ${photoUrl ? `<img src="${photoUrl}" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" onerror="this.style.display='none'">` : ''}
+          <p><strong>Type:</strong> ${type}</p>
+          <p><strong>Memory:</strong> ${memory}</p>
+          <p><strong>Rating:</strong> ${stars}</p>
+          <p><strong>With:</strong> ${companionList}</p>
+          <p><strong>Facilities:</strong> ${facilityList}</p>
+        </div>`;
 
       const marker = L.marker([lat, lon], {
         icon: L.icon({
@@ -115,16 +130,7 @@ fetch('data/updated_places.geojson')
         })
       });
 
-      const popupContent = `
-        <div style="max-width: 240px;">
-          <h4>${name}</h4>
-          <img src="${photo}" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" onerror="this.style.display='none'">
-          <p><strong>Type:</strong> ${type}</p>
-          <p><strong>Memory:</strong> ${memory}</p>
-          <p><strong>Rating:</strong> ${'⭐'.repeat(rating)}</p>
-          <p><strong>With:</strong> ${companions.join(', ')}</p>
-          <p><strong>Facilities:</strong> ${facilities.join(', ')}</p>
-        </div>`;
+      marker.bindPopup(popupContent);
 
       if (type === 'Camping') campingGroup.addLayer(marker);
       else if (type === 'Cabin') cabinGroup.addLayer(marker);
@@ -132,7 +138,6 @@ fetch('data/updated_places.geojson')
     });
   });
 
-// Control panel
 function addControlPanel() {
   const panel = document.createElement('div');
   panel.id = 'control-panel';
@@ -184,13 +189,10 @@ function addControlPanel() {
   });
 }
 
-// Load lines
 addLineLayer('data/section1full.geojson', 'blue', 'walked', walkedGroup);
 addLineLayer('data/unwalkedsofar.geojson', 'red', 'unwalked', unwalkedGroup);
 
-// Fit and add controls
 setTimeout(() => {
   map.fitBounds(allBounds, { padding: [50, 50] });
   addControlPanel();
 }, 800);
-
