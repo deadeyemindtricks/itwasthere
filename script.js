@@ -215,3 +215,12 @@ setTimeout(() => {
   map.fitBounds(allBounds, { padding: [50, 50] });
   addControlPanel();
 }, 800);
+const introOverlay = document.getElementById('intro-overlay');
+
+introOverlay.addEventListener('click', () => {
+  introOverlay.style.opacity = 0;
+  setTimeout(() => {
+    introOverlay.style.display = 'none';
+  }, 800); // Matches the CSS transition time
+});
+
