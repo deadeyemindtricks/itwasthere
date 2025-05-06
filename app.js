@@ -9,7 +9,7 @@ const toiletCoords = [];
 const toiletGroup = L.layerGroup().addTo(map);
 const bounds = L.latLngBounds();
 
-fetch('toiletsbytrail.geojson')
+fetch('data/toiletsbytrail.geojson')
   .then(res => res.json())
   .then(data => {
     data.features.forEach(feature => {
