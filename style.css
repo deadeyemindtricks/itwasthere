@@ -3,7 +3,3 @@ html, body, #map {
   margin: 0;
   padding: 0;
 }
-
-.leaflet-container {
-  background: #e6e6e6;
-}
