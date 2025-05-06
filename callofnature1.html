@@ -62,7 +62,7 @@
       return R * c;
     }
 
-    fetch('toiletsbytrail.geojson')
+    fetch('data/toiletsbytrail.geojson')
       .then(res => res.json())
       .then(data => {
         data.features.forEach(feature => {
