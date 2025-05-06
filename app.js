@@ -1,7 +1,7 @@
-const map = L.map('map');
+const map = L.map('map').setView([-42, 172], 6);
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors',
   maxZoom: 19
 }).addTo(map);
 
@@ -9,7 +9,7 @@ const toiletCoords = [];
 const toiletGroup = L.layerGroup().addTo(map);
 const bounds = L.latLngBounds();
 
-fetch('data/toiletsbytrail.geojson')
+fetch('toiletsbytrail.geojson')
   .then(res => res.json())
   .then(data => {
     data.features.forEach(feature => {
@@ -21,27 +21,19 @@ fetch('data/toiletsbytrail.geojson')
       const wheelchair = tags.wheelchair === 'yes' ? '✅' : '—';
 
       const popupContent = `
-        <div style="max-width: 200px;">
-          <h4>${name}</h4>
-          <p><strong>Access:</strong> ${access}</p>
-          <p><strong>Fee:</strong> ${fee}</p>
-          <p><strong>Wheelchair:</strong> ${wheelchair}</p>
-        </div>
+        <strong>${name}</strong><br/>
+        <strong>Access:</strong> ${access}<br/>
+        <strong>Fee:</strong> ${fee}<br/>
+        <strong>Wheelchair:</strong> ${wheelchair}
       `;
 
-      const marker = L.circleMarker([lat, lon], {
-        radius: 6,
-        color: '#0077cc',
-        fillColor: '#0077cc',
-        fillOpacity: 0.85
-      }).bindPopup(popupContent);
-
+      const marker = L.marker([lat, lon]).bindPopup(popupContent);
       marker.addTo(toiletGroup);
       toiletCoords.push({ lat, lon });
       bounds.extend([lat, lon]);
     });
 
-    map.fitBounds(bounds, { padding: [30, 30] });
+    map.fitBounds(bounds);
   });
 
 function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
