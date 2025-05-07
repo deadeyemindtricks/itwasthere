@@ -22,7 +22,7 @@ fetch('fulltrail.geojson')
   });
 
 // Load toilets with enhanced drawer
-fetch('toiletsontrailtest.geojson')
+fetch('toiletsbytrailtest.geojson')
   .then(res => res.json())
   .then(data => {
     const bounds = L.latLngBounds();
