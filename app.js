@@ -31,12 +31,12 @@ fetch('toiletsontrailtest.geojson')
     data.features.forEach(feature => {
       const [lon, lat] = feature.geometry.coordinates;
       
-const createCustomToiletIcon = () => {
+const customToiletIcon = () => {
   return L.divIcon({
     className: 'custom-toilet-icon',
     html: `
       <div style="
-        background-color: #4CAF50;
+        background-color: #4d90fe;
         border-radius: 50%;
         width: 36px;
         height: 36px;
@@ -59,7 +59,7 @@ const createCustomToiletIcon = () => {
 };
 
       const marker = L.marker([lat, lon], {
-        icon: createCustomToiletIcon()
+        icon: customToiletIcon()
       });
 
 
