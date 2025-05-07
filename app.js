@@ -21,7 +21,7 @@ fetch('fulltrail.geojson')
     }).addTo(map);
   });
 
-// Load toilets with enhanced popups
+// Load toilets with enhanced drawer
 fetch('toiletsontrailtest.geojson')
   .then(res => res.json())
   .then(data => {
@@ -31,22 +31,25 @@ fetch('toiletsontrailtest.geojson')
       const [lon, lat] = feature.geometry.coordinates;
       const marker = L.marker([lat, lon]);
 
-      const popupContent = `
-        <div class="toilet-popup">
-          <h4>Toilet</h4>
-          <p class="on-trail"><i class="fa fa-check-circle"></i> Trail proximity coming soon</p>
-          <p class="distance"><i class="fa fa-crow"></i> Distance from you coming soon</p>
+      marker.on('click', () => {
+        const drawer = document.getElementById('toilet-info-drawer');
+        drawer.innerHTML = `
+          <div class="toilet-popup">
+            <h4>Toilet</h4>
+            <p class="on-trail"><i class="fa fa-check-circle"></i> Trail proximity coming soon</p>
+            <p class="distance"><i class="fa fa-crow"></i> Distance from you coming soon</p>
 
-          ${feature.properties.category ? `<p><strong>Type:</strong> ${feature.properties.category}</p>` : ""}
-          ${feature.properties.flushes ? `<p><strong>Flushes:</strong> ${feature.properties.flushes}</p>` : ""}
-          ${feature.properties.toiletPaper ? `<p><strong>Toilet paper:</strong> ${feature.properties.toiletPaper}</p>` : ""}
-          ${feature.properties.price ? `<p><strong>Price:</strong> ${feature.properties.price}</p>` : ""}
-          ${feature.properties.openingHours ? `<p><strong>Open:</strong> ${feature.properties.openingHours}</p>` : ""}
-          ${feature.properties.notes ? `<p><strong>Notes:</strong> ${feature.properties.notes}</p>` : ""}
-        </div>
-      `;
+            ${feature.properties.category ? `<p><strong>Type:</strong> ${feature.properties.category}</p>` : ""}
+            ${feature.properties.flushes ? `<p><strong>Flushes:</strong> ${feature.properties.flushes}</p>` : ""}
+            ${feature.properties.toiletPaper ? `<p><strong>Toilet paper:</strong> ${feature.properties.toiletPaper}</p>` : ""}
+            ${feature.properties.price ? `<p><strong>Price:</strong> ${feature.properties.price}</p>` : ""}
+            ${feature.properties.openingHours ? `<p><strong>Open:</strong> ${feature.properties.openingHours}</p>` : ""}
+            ${feature.properties.notes ? `<p><strong>Notes:</strong> ${feature.properties.notes}</p>` : ""}
+          </div>
+        `;
+        drawer.classList.remove('hidden');
+      });
 
-      marker.bindPopup(popupContent);
       markerClusterGroup.addLayer(marker);
       bounds.extend([lat, lon]);
     });
