@@ -30,47 +30,54 @@ fetch('toiletsontrailtest.geojson')
 
     data.features.forEach(feature => {
       const [lon, lat] = feature.geometry.coordinates;
-      
-const customToiletIcon = () => {
-  return L.divIcon({
-    className: 'custom-toilet-icon',
-    html: `
-      <div style="
-        background-color: #4d90fe;
-        border-radius: 50%;
-        width: 36px;
-        height: 36px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      ">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-          stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="lucide lucide-toilet-icon lucide-toilet">
-          <path d="M7 12h13a1 1 0 0 1 1 1 5 5 0 0 1-5 5h-.598a.5.5 0 0 0-.424.765l1.544 2.47a.5.5 0 0 1-.424.765H5.402a.5.5 0 0 1-.424-.765L7 18"/>
-          <path d="M8 18a5 5 0 0 1-5-5V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8"/>
-        </svg>
-      </div>
-    `,
-    iconSize: [36, 36],
-    iconAnchor: [18, 18],
-    popupAnchor: [0, -18]
-  });
-};
+
+      const customToiletIcon = () => {
+        return L.divIcon({
+          className: 'custom-toilet-icon',
+          html: `
+            <div style="
+              background-color: #4d90fe;
+              border-radius: 50%;
+              width: 36px;
+              height: 36px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-toilet-icon lucide-toilet">
+                <path d="M7 12h13a1 1 0 0 1 1 1 5 5 0 0 1-5 5h-.598a.5.5 0 0 0-.424.765l1.544 2.47a.5.5 0 0 1-.424.765H5.402a.5.5 0 0 1-.424-.765L7 18"/>
+                <path d="M8 18a5 5 0 0 1-5-5V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8"/>
+              </svg>
+            </div>
+          `,
+          iconSize: [36, 36],
+          iconAnchor: [18, 18],
+          popupAnchor: [0, -18]
+        });
+      };
 
       const marker = L.marker([lat, lon], {
         icon: customToiletIcon()
       });
 
-
       marker.on('click', () => {
         const drawer = document.getElementById('toilet-info-drawer');
+        const distance = feature.properties.distanceToTrail ?? "?";
         drawer.innerHTML = `
           <div class="toilet-popup">
             <h4>Toilet</h4>
             <p class="on-trail"><i class="fa fa-check-circle"></i> Trail proximity coming soon</p>
-            <p class="distance"><i class="fa fa-crow"></i> Distance from you coming soon</p>
-
+            <p class="distance">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-bird-icon lucide-bird" style="vertical-align: middle; margin-right: 4px;">
+                <path d="M16 7h.01"/><path d="M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20"/>
+                <path d="m20 7 2 .5-2 .5"/><path d="M10 18v3"/><path d="M14 17.75V21"/><path d="M7 18a6 6 0 0 0 3.84-10.61"/>
+              </svg>
+              ${distance} metres away, as the Tui flies
+            </p>
             ${feature.properties.category ? `<p><strong>Type:</strong> ${feature.properties.category}</p>` : ""}
             ${feature.properties.flushes ? `<p><strong>Flushes:</strong> ${feature.properties.flushes}</p>` : ""}
             ${feature.properties.toiletPaper ? `<p><strong>Toilet paper:</strong> ${feature.properties.toiletPaper}</p>` : ""}
