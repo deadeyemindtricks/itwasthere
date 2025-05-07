@@ -3,3 +3,29 @@ html, body, #map {
   margin: 0;
   padding: 0;
 }
+
+.toilet-popup {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 220px;
+}
+
+.toilet-popup h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.on-trail {
+  color: green;
+  font-weight: bold;
+}
+
+.off-trail {
+  color: orange;
+  font-weight: bold;
+}
+
+.distance {
+  margin-bottom: 8px;
+}
