@@ -1,69 +1,35 @@
-const map = L.map('map').setView([-42, 172], 6);
-
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap contributors',
-  maxZoom: 19
-}).addTo(map);
-
-const markerClusterGroup = L.markerClusterGroup();
-map.addLayer(markerClusterGroup);
-
-// Load trail route
-fetch('fulltrail.geojson')
-  .then(res => res.json())
-  .then(data => {
-    L.geoJSON(data, {
-      style: {
-        color: '#4d90fe',
-        weight: 2,
-        opacity: 0.4
-      }
-    }).addTo(map);
-  });
-
-// Load toilets with enhanced drawer
-fetch('toiletsbytrailtest.geojson')
-  .then(res => res.json())
-  .then(data => {
-    const bounds = L.latLngBounds();
-
-    data.features.forEach(feature => {
-      const [lon, lat] = feature.geometry.coordinates;
-      const marker = L.marker([lat, lon]);
-
-      marker.on('click', () => {
-        const drawer = document.getElementById('toilet-info-drawer');
-        drawer.innerHTML = `
-          <div class="toilet-popup">
-            <h4>Toilet</h4>
-            <p class="on-trail"><i class="fa fa-check-circle"></i> Trail proximity coming soon</p>
-            <p class="distance"><i class="fa fa-crow"></i> Distance from you coming soon</p>
-
-            ${feature.properties.category ? `<p><strong>Type:</strong> ${feature.properties.category}</p>` : ""}
-            ${feature.properties.flushes ? `<p><strong>Flushes:</strong> ${feature.properties.flushes}</p>` : ""}
-            ${feature.properties.toiletPaper ? `<p><strong>Toilet paper:</strong> ${feature.properties.toiletPaper}</p>` : ""}
-            ${feature.properties.price ? `<p><strong>Price:</strong> ${feature.properties.price}</p>` : ""}
-            ${feature.properties.openingHours ? `<p><strong>Open:</strong> ${feature.properties.openingHours}</p>` : ""}
-            ${feature.properties.notes ? `<p><strong>Notes:</strong> ${feature.properties.notes}</p>` : ""}
-          </div>
-        `;
-        drawer.classList.remove('hidden');
-      });
-
-      markerClusterGroup.addLayer(marker);
-      bounds.extend([lat, lon]);
-    });
-
-    map.fitBounds(bounds);
-  });
-
-map.locate({ setView: false, maxZoom: 16 });
-
-map.on('locationfound', function(e) {
-  L.marker(e.latlng).addTo(map).bindPopup("You are here").openPopup();
-  L.circle(e.latlng, e.accuracy / 2).addTo(map);
+// Initialize the map centered on New Zealand
+const map = L.map('map', {
+    center: [-41.2, 174.7],
+    zoom: 6,
+    maxBounds: [
+        [-47.5, 166.0], // Southwest
+        [-34.0, 179.0]  // Northeast
+    ],
+    maxBoundsViscosity: 1.0
 });
 
-map.on('locationerror', () => {
-  alert("Couldn't find your location. Location access might be denied.");
+// Add tile layer
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+// Add a crosshair locate button
+const locateControl = L.control({ position: 'topright' });
+
+locateControl.onAdd = function (map) {
+    const div = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+    div.innerHTML = '<a href="#" title="Locate Me" id="locate-btn" style="display: flex; align-items: center; justify-content: center; width: 26px; height: 26px;">📍</a>';
+    div.style.cursor = 'pointer';
+    return div;
+};
+
+locateControl.addTo(map);
+
+// Add click handler to trigger geolocation
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('locate-btn').addEventListener('click', function (e) {
+        e.preventDefault();
+        map.locate({ setView: true, maxZoom: 16 });
+    });
 });
