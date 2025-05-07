@@ -200,7 +200,7 @@ header.innerHTML = `
   <div style="font-size: 18px; font-weight: bold;">When nature calls...</div>
   <div style="font-size: 14px;">Where to find a loo on New Zealand's Te Araroa trail</div>
 `;
-document.body.appendChild(header);
+
 
   document.getElementById('reset-view-btn').addEventListener('click', function (e) {
     e.preventDefault();
@@ -215,7 +215,7 @@ header.innerHTML = `
   <div style="font-size: 18px; font-weight: bold;">When nature calls...</div>
   <div style="font-size: 14px;">Where to find a loo on New Zealand's Te Araroa trail</div>
 `;
-document.body.appendChild(header);
+
 
   document.getElementById('locate-btn').addEventListener('click', function (e) {
     e.preventDefault();
@@ -224,6 +224,13 @@ document.body.appendChild(header);
 });
 map.on('locationerror', () => {
   alert("Couldn't find your location. Location access might be denied.");
+});
+
+
+document.addEventListener('click', function(e) {
+  if (e.target && e.target.id === 'close-drawer') {
+    document.getElementById('toilet-info-drawer').classList.add('hidden');
+  }
 });
 
 
