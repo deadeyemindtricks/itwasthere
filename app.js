@@ -11,7 +11,14 @@ map.addLayer(markerClusterGroup);
 fetch('fulltrail.geojson')
   .then(res => res.json())
   .then(data => {
-    L.geoJSON(data, {
+    const lineOnly = {
+      type: "FeatureCollection",
+      features: data.features.filter(
+        f => f.geometry.type === "LineString" || f.geometry.type === "MultiLineString"
+      )
+    };
+
+    L.geoJSON(lineOnly, {
       style: {
         color: '#4d90fe',
         weight: 2,
