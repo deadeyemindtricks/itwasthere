@@ -8,6 +8,18 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const markerClusterGroup = L.markerClusterGroup();
 map.addLayer(markerClusterGroup);
 
+fetch('fulltrail.geojson')
+  .then(res => res.json())
+  .then(data => {
+    L.geoJSON(data, {
+      style: {
+        color: '#4d90fe',
+        weight: 2,
+        opacity: 0.4
+      }
+    }).addTo(map);
+  });
+
 fetch('toiletsbytrail.geojson')
   .then(res => res.json())
   .then(data => {
