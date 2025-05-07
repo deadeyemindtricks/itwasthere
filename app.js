@@ -6,6 +6,35 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19
 }).addTo(map);
 
+
+let currentUserLocation = null;
+
+map.on('locationfound', function(e) {
+  currentUserLocation = e.latlng;
+  L.marker(e.latlng).addTo(map).bindPopup("You are here").openPopup();
+  L.circle(e.latlng, e.accuracy / 2).addTo(map);
+});
+
+// Haversine distance in meters
+function haversineDistance(lat1, lon1, lat2, lon2) {
+  function toRad(x) {
+    return x * Math.PI / 180;
+  }
+  const R = 6371e3; // metres
+  const φ1 = toRad(lat1);
+  const φ2 = toRad(lat2);
+  const Δφ = toRad(lat2 - lat1);
+  const Δλ = toRad(lon2 - lon1);
+
+  const a = Math.sin(Δφ/2) * Math.sin(Δφ/2) +
+            Math.cos(φ1) * Math.cos(φ2) *
+            Math.sin(Δλ/2) * Math.sin(Δλ/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+  return Math.round(R * c);
+}
+
+
 const markerClusterGroup = L.markerClusterGroup();
 map.addLayer(markerClusterGroup);
 
@@ -68,7 +97,23 @@ fetch('toiletsontrailtest.geojson')
         drawer.innerHTML = `
           <div class="toilet-popup">
             <h4>Toilet</h4>
-            <p class="on-trail"><i class="fa fa-check-circle"></i> Trail proximity coming soon</p>
+            
+  <p class="on-trail"><i class="fa fa-check-circle"></i> Trail proximity coming soon</p>
+  <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    class="lucide lucide-leaf-icon" style="vertical-align: middle; margin-right: 4px;">
+    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+    <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+  </svg> May have toilet paper</p>
+  <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    class="lucide lucide-soap-dispenser-droplet-icon" style="vertical-align: middle; margin-right: 4px;">
+    <path d="M10.5 2v4"/><path d="M14 2H7a2 2 0 0 0-2 2"/>
+    <path d="M19.29 14.76A6.67 6.67 0 0 1 17 11a6.6 6.6 0 0 1-2.29 3.76c-1.15.92-1.71 2.04-1.71 3.19
+    0 2.22 1.8 4.05 4 4.05s4-1.83 4-4.05c0-1.16-.57-2.26-1.71-3.19"/>
+    <path d="M9.607 21H6a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h7V7a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/>
+  </svg> May have soap</p>
+  
             <p class="distance">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -76,7 +121,7 @@ fetch('toiletsontrailtest.geojson')
                 <path d="M16 7h.01"/><path d="M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20"/>
                 <path d="m20 7 2 .5-2 .5"/><path d="M10 18v3"/><path d="M14 17.75V21"/><path d="M7 18a6 6 0 0 0 3.84-10.61"/>
               </svg>
-              ${distance} metres away, as the Tui flies
+              ${currentUserLocation ? `${haversineDistance(lat, lon, currentUserLocation.lat, currentUserLocation.lng)} metres away, as the Tui flies` : '? metres away, as the Tui flies'}
             </p>
             ${feature.properties.category ? `<p><strong>Type:</strong> ${feature.properties.category}</p>` : ""}
             ${feature.properties.flushes ? `<p><strong>Flushes:</strong> ${feature.properties.flushes}</p>` : ""}
