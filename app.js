@@ -16,8 +16,8 @@ fetch('fulltrail.geojson')
     L.geoJSON(data, {
       style: {
         color: '#4d90fe',
-        weight: 2,
-        opacity: 0.4
+        weight: 6,
+        opacity: 0.8
       }
     }).addTo(map);
   });
