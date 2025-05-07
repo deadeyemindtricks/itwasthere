@@ -22,7 +22,7 @@ fetch('fulltrail.geojson')
   });
 
 // Load toilets with enhanced popups
-fetch('toiletsbytrailtest.geojson')
+fetch('toiletsontrailtest.geojson')
   .then(res => res.json())
   .then(data => {
     const bounds = L.latLngBounds();
@@ -34,11 +34,8 @@ fetch('toiletsbytrailtest.geojson')
       const popupContent = `
         <div class="toilet-popup">
           <h4>Toilet</h4>
-          ${feature.properties.onTrail ? 
-            `<p class="on-trail"><i class="fa fa-check-circle"></i> On trail</p>` : 
-            `<p class="off-trail"><i class="fa fa-road"></i> Off trail</p>`}
-          ${feature.properties.distanceFromUser ? 
-            `<p class="distance"><i class="fa fa-crow"></i> ${feature.properties.distanceFromUser} km from you</p>` : ""}
+          <p class="on-trail"><i class="fa fa-check-circle"></i> Trail proximity coming soon</p>
+          <p class="distance"><i class="fa fa-crow"></i> Distance from you coming soon</p>
 
           ${feature.properties.category ? `<p><strong>Type:</strong> ${feature.properties.category}</p>` : ""}
           ${feature.properties.flushes ? `<p><strong>Flushes:</strong> ${feature.properties.flushes}</p>` : ""}
