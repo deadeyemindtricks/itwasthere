@@ -21,7 +21,7 @@ fetch('fulltrail.geojson')
     L.geoJSON(lineOnly, {
       style: {
         color: '#4d90fe',
-        weight: 2,
+        weight: 4,
         opacity: 0.4
       }
     }).addTo(map);
