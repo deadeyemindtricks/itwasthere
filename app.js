@@ -30,7 +30,38 @@ fetch('toiletsontrailtest.geojson')
 
     data.features.forEach(feature => {
       const [lon, lat] = feature.geometry.coordinates;
-      const marker = L.marker([lat, lon]);
+      
+const createCustomToiletIcon = () => {
+  return L.divIcon({
+    className: 'custom-toilet-icon',
+    html: `
+      <div style="
+        background-color: #4CAF50;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-toilet-icon lucide-toilet">
+          <path d="M7 12h13a1 1 0 0 1 1 1 5 5 0 0 1-5 5h-.598a.5.5 0 0 0-.424.765l1.544 2.47a.5.5 0 0 1-.424.765H5.402a.5.5 0 0 1-.424-.765L7 18"/>
+          <path d="M8 18a5 5 0 0 1-5-5V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8"/>
+        </svg>
+      </div>
+    `,
+    iconSize: [36, 36],
+    iconAnchor: [18, 18],
+    popupAnchor: [0, -18]
+  });
+};
+
+      const marker = L.marker([lat, lon], {
+        icon: createCustomToiletIcon()
+      });
+
 
       marker.on('click', () => {
         const drawer = document.getElementById('toilet-info-drawer');
