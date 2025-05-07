@@ -193,12 +193,30 @@ resetControl.onAdd = function(map) {
 resetControl.addTo(map);
 
 document.addEventListener('DOMContentLoaded', function () {
+
+const header = document.createElement('div');
+header.style.cssText = "position: absolute; top: 0; width: 100%; background: white; color: black; text-align: center; padding: 6px 12px 10px; z-index: 1000; font-family: sans-serif; box-shadow: 0 2px 5px rgba(0,0,0,0.1);";
+header.innerHTML = `
+  <div style="font-size: 18px; font-weight: bold;">When nature calls...</div>
+  <div style="font-size: 14px;">Where to find a loo on New Zealand's Te Araroa trail</div>
+`;
+document.body.appendChild(header);
+
   document.getElementById('reset-view-btn').addEventListener('click', function (e) {
     e.preventDefault();
     map.setView([-42, 172], 6);
   });
 });
 document.addEventListener('DOMContentLoaded', function () {
+
+const header = document.createElement('div');
+header.style.cssText = "position: absolute; top: 0; width: 100%; background: white; color: black; text-align: center; padding: 6px 12px 10px; z-index: 1000; font-family: sans-serif; box-shadow: 0 2px 5px rgba(0,0,0,0.1);";
+header.innerHTML = `
+  <div style="font-size: 18px; font-weight: bold;">When nature calls...</div>
+  <div style="font-size: 14px;">Where to find a loo on New Zealand's Te Araroa trail</div>
+`;
+document.body.appendChild(header);
+
   document.getElementById('locate-btn').addEventListener('click', function (e) {
     e.preventDefault();
     map.locate({ setView: true, maxZoom: 16 });
@@ -206,4 +224,11 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 map.on('locationerror', () => {
   alert("Couldn't find your location. Location access might be denied.");
+});
+
+
+document.addEventListener('click', function(e) {
+  if (e.target && e.target.id === 'close-drawer') {
+    document.getElementById('toilet-info-drawer').classList.add('hidden');
+  }
 });
