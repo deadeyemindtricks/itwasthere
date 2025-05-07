@@ -27,7 +27,7 @@ fetch('fulltrail.geojson')
     }).addTo(map);
   });
 
-fetch('toiletsbytrail.geojson')
+fetch('toiletsbytrailtest.geojson')
   .then(res => res.json())
   .then(data => {
     const bounds = L.latLngBounds();
