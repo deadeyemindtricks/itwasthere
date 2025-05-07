@@ -1,13 +1,7 @@
-
 // Initialize the map centered on New Zealand
 const map = L.map('map', {
     center: [-41.2, 174.7],
     zoom: 6,
-    maxBounds: [
-        [-47.5, 166.0], // Southwest
-        [-34.0, 179.0]  // Northeast
-    ],
-    maxBoundsViscosity: 1.0
 });
 
 // Add tile layer
