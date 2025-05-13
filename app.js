@@ -127,10 +127,10 @@ function loadLayer(url, type) {
 }
 
 // Load all layers
-loadLayer('publictoilets_clean.geojson', 'toilet');
-loadLayer('waterfountains_clean.geojson', 'waterfountain');
-loadLayer('huts_clean.geojson', 'hut');
-loadLayer('campsites_clean.geojson', 'campsite');
+loadLayer('publictoilets_filtered.geojson', 'toilet');
+loadLayer('waterfountains_filtered.geojson', 'waterfountain');
+loadLayer('huts_filtered.geojson', 'hut');
+loadLayer('campsites_filtered.geojson', 'campsite');
 
 // Trail line
 fetch('fulltrail.geojson')
