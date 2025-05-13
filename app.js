@@ -81,10 +81,10 @@ function loadLayer(url, type) {
     });
 }
 
-loadLayer('publictoilets.geojson', 'toilet');
-loadLayer('waterfountains.geojson', 'waterfountain');
-loadLayer('huts.geojson', 'hut');
-loadLayer('campsites.geojson', 'campsite');
+loadLayer('publictoilets_clean.geojson', 'toilet');
+loadLayer('waterfountains_clean.geojson', 'waterfountain');
+loadLayer('huts_clean.geojson', 'hut');
+loadLayer('campsites_clean.geojson', 'campsite');
 
 L.control.layers(null, {
   "Public Toilets": layers.toilet,
