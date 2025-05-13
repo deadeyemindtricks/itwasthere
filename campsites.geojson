@@ -1,0 +1,5603 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.3601,
+          -35.36473569
+        ]
+      },
+      "properties": {
+        "assetId": 100065349,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Puriri Bay (Whangaruru North Head) Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0188235,
+          -44.96291267
+        ]
+      },
+      "properties": {
+        "assetId": 100065488,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Kiosk Creek Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.5943083,
+          -41.37630294
+        ]
+      },
+      "properties": {
+        "assetId": 100066095,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Butchers Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.818192,
+          -37.24682019
+        ]
+      },
+      "properties": {
+        "assetId": 100044315,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Wentworth Valley Campground",
+        "flush": "Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.2220884,
+          -40.88176605
+        ]
+      },
+      "properties": {
+        "assetId": 100031362,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "\u014ctaki Forks Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.015603,
+          -45.56103398
+        ]
+      },
+      "properties": {
+        "assetId": 100066033,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Piano Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.0489979,
+          -41.79697466
+        ]
+      },
+      "properties": {
+        "assetId": 100043484,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lyell Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.3968092,
+          -36.23721873
+        ]
+      },
+      "properties": {
+        "assetId": 100044417,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "The Green Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4782644,
+          -36.2024443
+        ]
+      },
+      "properties": {
+        "assetId": 100044955,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Awana Beach Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.454915,
+          -46.00779021
+        ]
+      },
+      "properties": {
+        "assetId": 100066034,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Thicket Burn Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.3607303,
+          -38.16203748
+        ]
+      },
+      "properties": {
+        "assetId": 100084979,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lake \u014ckareka Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.1847855,
+          -43.98776843
+        ]
+      },
+      "properties": {
+        "assetId": 100043669,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Orari Campsite",
+        "flush": "Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.8049289,
+          -44.36256942
+        ]
+      },
+      "properties": {
+        "assetId": 100100774,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Quailburn Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.6522927,
+          -35.7215133
+        ]
+      },
+      "properties": {
+        "assetId": 100031412,
+        "category": "Serviced",
+        "type": "campsites",
+        "title": "Trounson Kauri Park Campground",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.056294,
+          -40.96387156
+        ]
+      },
+      "properties": {
+        "assetId": 100043774,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Watering Cove Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6576753,
+          -38.16623863
+        ]
+      },
+      "properties": {
+        "assetId": 100038806,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Arohena Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0388499,
+          -41.37365273
+        ]
+      },
+      "properties": {
+        "assetId": 100081986,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Corner Creek Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.4080786,
+          -34.82958635
+        ]
+      },
+      "properties": {
+        "assetId": 100066494,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Maitai Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.798957,
+          -44.86720796
+        ]
+      },
+      "properties": {
+        "assetId": 100039900,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "St Bathans Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.1212226,
+          -38.31269811
+        ]
+      },
+      "properties": {
+        "assetId": 100043679,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Omahuru Campsite",
+        "flush": "Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8154973,
+          -40.80562619
+        ]
+      },
+      "properties": {
+        "assetId": 100072998,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Moawhitu Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.168943,
+          -44.35185221
+        ]
+      },
+      "properties": {
+        "assetId": 100031420,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Boundary Creek Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0594327,
+          -40.91227023
+        ]
+      },
+      "properties": {
+        "assetId": 100065887,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Mosquito Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.4113011,
+          -43.72167639
+        ]
+      },
+      "properties": {
+        "assetId": 100043486,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lake Paringa Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2339845,
+          -35.22641799
+        ]
+      },
+      "properties": {
+        "assetId": 100040698,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Cable Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6673892,
+          -37.06668808
+        ]
+      },
+      "properties": {
+        "assetId": 100031353,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Trestle View Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.992696,
+          -39.33757325
+        ]
+      },
+      "properties": {
+        "assetId": 100044320,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "T\u012beke Marae/K\u0101inga Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.5215396,
+          -45.81200086
+        ]
+      },
+      "properties": {
+        "assetId": 100043515,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Monowai Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8665674,
+          -40.80811859
+        ]
+      },
+      "properties": {
+        "assetId": 100043513,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "South Arm Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.6801717,
+          -38.72200662
+        ]
+      },
+      "properties": {
+        "assetId": 100065051,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Verns Camp",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0792851,
+          -39.17603557
+        ]
+      },
+      "properties": {
+        "assetId": 100092038,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Mosley's Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8607836,
+          -40.89076823
+        ]
+      },
+      "properties": {
+        "assetId": 100065557,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Lucky Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4218824,
+          -36.51231214
+        ]
+      },
+      "properties": {
+        "assetId": 100065399,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Stony Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4905188,
+          -38.6334048
+        ]
+      },
+      "properties": {
+        "assetId": 100031356,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Piropiro Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.8338458,
+          -41.79301794
+        ]
+      },
+      "properties": {
+        "assetId": 100120946,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Teetotal Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.8171168,
+          -44.20809965
+        ]
+      },
+      "properties": {
+        "assetId": 100095975,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Round Bush Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.7932337,
+          -35.21141706
+        ]
+      },
+      "properties": {
+        "assetId": 100000726,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Puket\u012b Recreation Area Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6283351,
+          -37.12434306
+        ]
+      },
+      "properties": {
+        "assetId": 100089341,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Kahikatea Campsite",
+        "flush": "Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.0897502,
+          -38.73296537
+        ]
+      },
+      "properties": {
+        "assetId": 100043675,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Mokau Landing Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.3322851,
+          -39.38623062
+        ]
+      },
+      "properties": {
+        "assetId": 100065803,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Cameron Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.8118446,
+          -45.23160733
+        ]
+      },
+      "properties": {
+        "assetId": 100042532,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Henry Creek Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5676302,
+          -41.4675076
+        ]
+      },
+      "properties": {
+        "assetId": 100043775,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Courthouse Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.373862,
+          -45.58653271
+        ]
+      },
+      "properties": {
+        "assetId": 100031421,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "South Arm Campsite (Lake Manapouri)",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0639726,
+          -40.95321073
+        ]
+      },
+      "properties": {
+        "assetId": 100043772,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Te Pukatea Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.3240693,
+          -39.38822551
+        ]
+      },
+      "properties": {
+        "assetId": 100030214,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Kuripapango (Ox Bow) Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.9222479,
+          -42.06192817
+        ]
+      },
+      "properties": {
+        "assetId": 100044061,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Coldwater Stream Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8630636,
+          -41.17501805
+        ]
+      },
+      "properties": {
+        "assetId": 100044099,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Pipi Beach Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.1046637,
+          -41.08829601
+        ]
+      },
+      "properties": {
+        "assetId": 100044560,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Scotts Beach Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0519222,
+          -40.96566626
+        ]
+      },
+      "properties": {
+        "assetId": 100065888,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Observation Beach Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.8496229,
+          -44.27394747
+        ]
+      },
+      "properties": {
+        "assetId": 100102965,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lake Middleton Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4307983,
+          -39.39168736
+        ]
+      },
+      "properties": {
+        "assetId": 100044155,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Mangawhero Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.4568585,
+          -39.18364351
+        ]
+      },
+      "properties": {
+        "assetId": 100044048,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Mangatutu Hot Springs Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.7573961,
+          -45.22728575
+        ]
+      },
+      "properties": {
+        "assetId": 100065559,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Glencoe Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.9563806,
+          -42.3954858
+        ]
+      },
+      "properties": {
+        "assetId": 100065342,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Acheron Accommodation House Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.3532059,
+          -41.06512777
+        ]
+      },
+      "properties": {
+        "assetId": 100037857,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Bucks Road Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.8304787,
+          -39.1370575
+        ]
+      },
+      "properties": {
+        "assetId": 100084858,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Waikoko Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.7472348,
+          -37.4381376
+        ]
+      },
+      "properties": {
+        "assetId": 100043934,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Dickey Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0884946,
+          -46.85664972
+        ]
+      },
+      "properties": {
+        "assetId": 100042533,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "M\u0101ori Beach Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.1712226,
+          -39.70026475
+        ]
+      },
+      "properties": {
+        "assetId": 100042952,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Atene Skyline Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.8479577,
+          -41.80577336
+        ]
+      },
+      "properties": {
+        "assetId": 100065345,
+        "category": "Serviced",
+        "type": "campsites",
+        "title": "Kerr Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.5074254,
+          -38.27738594
+        ]
+      },
+      "properties": {
+        "assetId": 100043561,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Rerewhakaaitu, Ash Pit Rd Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.1207896,
+          -38.36411615
+        ]
+      },
+      "properties": {
+        "assetId": 100065880,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Te Pakau (Eight Acre) Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.9695095,
+          -41.0387555
+        ]
+      },
+      "properties": {
+        "assetId": 100044057,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Kauauroa Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.8222816,
+          -41.80092678
+        ]
+      },
+      "properties": {
+        "assetId": 100085452,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "West Bay Campsite - Buller zone",
+        "flush": "Non-Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.3744268,
+          -44.54822705
+        ]
+      },
+      "properties": {
+        "assetId": 100038502,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Daleys Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.1473458,
+          -41.12766917
+        ]
+      },
+      "properties": {
+        "assetId": 100066096,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Camp Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0319071,
+          -41.20207547
+        ]
+      },
+      "properties": {
+        "assetId": 100044093,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Cowshed Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.7929209,
+          -42.99407774
+        ]
+      },
+      "properties": {
+        "assetId": 100043935,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Andrews Shelter Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2314761,
+          -35.22621812
+        ]
+      },
+      "properties": {
+        "assetId": 100030189,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Sunset Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0458487,
+          -40.94760718
+        ]
+      },
+      "properties": {
+        "assetId": 100066092,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Torrent Bay Village Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6561691,
+          -37.07643831
+        ]
+      },
+      "properties": {
+        "assetId": 100065593,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Catleys Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.9592391,
+          -38.68340098
+        ]
+      },
+      "properties": {
+        "assetId": 100043745,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Whakaipo Campsite",
+        "flush": "Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5964031,
+          -39.1447631
+        ]
+      },
+      "properties": {
+        "assetId": 100065590,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Mangatepopo Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.0801474,
+          -39.16637551
+        ]
+      },
+      "properties": {
+        "assetId": 100065804,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Waikari River Mouth Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.2240322,
+          -41.45015607
+        ]
+      },
+      "properties": {
+        "assetId": 100044559,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Putangirua Pinnacles Campsite",
+        "flush": "Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.8035466,
+          -43.58820431
+        ]
+      },
+      "properties": {
+        "assetId": 100121018,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Godley Head Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.314659,
+          -44.72577386
+        ]
+      },
+      "properties": {
+        "assetId": 100065482,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Sylvan Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8424753,
+          -40.92601756
+        ]
+      },
+      "properties": {
+        "assetId": 100044094,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "French Pass Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.2173713,
+          -40.88584804
+        ]
+      },
+      "properties": {
+        "assetId": 100042743,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "James Mackay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.7309112,
+          -43.15113539
+        ]
+      },
+      "properties": {
+        "assetId": 100043673,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Mistletoe Flats Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0570896,
+          -41.38290841
+        ]
+      },
+      "properties": {
+        "assetId": 100065343,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Whites Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.9567102,
+          -40.04734031
+        ]
+      },
+      "properties": {
+        "assetId": 100095961,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Pohangina Base Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.1418669,
+          -41.17168149
+        ]
+      },
+      "properties": {
+        "assetId": 100044091,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Bay of Many Coves Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0464567,
+          -41.19527845
+        ]
+      },
+      "properties": {
+        "assetId": 100065808,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Picnic Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.2468261,
+          -40.72079136
+        ]
+      },
+      "properties": {
+        "assetId": 100038010,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Waikawa Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6725739,
+          -37.03177733
+        ]
+      },
+      "properties": {
+        "assetId": 100044160,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Moss Creek Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5978778,
+          -41.79405558
+        ]
+      },
+      "properties": {
+        "assetId": 100066492,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lake Rotoroa Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.8230658,
+          -39.15418315
+        ]
+      },
+      "properties": {
+        "assetId": 100031195,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Urchin Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5370152,
+          -36.60586488
+        ]
+      },
+      "properties": {
+        "assetId": 100044313,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Waikawau Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8236967,
+          -41.07203955
+        ]
+      },
+      "properties": {
+        "assetId": 100066486,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Tawa Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.9374136,
+          -40.05241645
+        ]
+      },
+      "properties": {
+        "assetId": 100043537,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Piripiri Campsite",
+        "flush": "Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.1844955,
+          -38.94744981
+        ]
+      },
+      "properties": {
+        "assetId": 100066035,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Clements Clearing Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0748008,
+          -37.9384224
+        ]
+      },
+      "properties": {
+        "assetId": 100031198,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Kaniwhaniwha Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0295072,
+          -40.98938395
+        ]
+      },
+      "properties": {
+        "assetId": 100031214,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Coquille Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.9848161,
+          -45.07603311
+        ]
+      },
+      "properties": {
+        "assetId": 100065489,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Totara Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.11351,
+          -41.71137902
+        ]
+      },
+      "properties": {
+        "assetId": 100066488,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Kowhai Point Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.2538556,
+          -42.77354706
+        ]
+      },
+      "properties": {
+        "assetId": 100043178,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lake Taylor Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9991779,
+          -39.20287311
+        ]
+      },
+      "properties": {
+        "assetId": 100042949,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Bettjemann Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.5701414,
+          -41.30109424
+        ]
+      },
+      "properties": {
+        "assetId": 100066485,
+        "category": "Serviced",
+        "type": "campsites",
+        "title": "Pelorus Bridge Campground",
+        "flush": "Non-Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.2897362,
+          -42.30475539
+        ]
+      },
+      "properties": {
+        "assetId": 100037707,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Lake Daniell Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.0406777,
+          -38.66800556
+        ]
+      },
+      "properties": {
+        "assetId": 100065800,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Orangihikoia Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6191848,
+          -36.50011646
+        ]
+      },
+      "properties": {
+        "assetId": 100133707,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Remiger Road Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.3084773,
+          -40.88646632
+        ]
+      },
+      "properties": {
+        "assetId": 100038655,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Saxon Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5077574,
+          -39.04465563
+        ]
+      },
+      "properties": {
+        "assetId": 100000736,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Pokaka Mill Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.8712576,
+          -44.43499019
+        ]
+      },
+      "properties": {
+        "assetId": 100065797,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Mt Nimrod Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.769571,
+          -41.05527697
+        ]
+      },
+      "properties": {
+        "assetId": 100066098,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Elaine Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.2627326,
+          -44.97931984
+        ]
+      },
+      "properties": {
+        "assetId": 100038641,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Greenstone Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.7432221,
+          -41.11878867
+        ]
+      },
+      "properties": {
+        "assetId": 100044095,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Harvey Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7905858,
+          -36.50440886
+        ]
+      },
+      "properties": {
+        "assetId": 100043559,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Motuora Island Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.9010683,
+          -42.7946865
+        ]
+      },
+      "properties": {
+        "assetId": 100043034,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lake M\u0101hinapua Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.3355006,
+          -43.19356923
+        ]
+      },
+      "properties": {
+        "assetId": 100064670,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Wooded Gully Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0752916,
+          -44.89420724
+        ]
+      },
+      "properties": {
+        "assetId": 100039602,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Cascade Creek Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.1195009,
+          -38.99191318
+        ]
+      },
+      "properties": {
+        "assetId": 100042739,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Poukaria Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9807646,
+          -39.23333496
+        ]
+      },
+      "properties": {
+        "assetId": 100092037,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Hellawell's Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.0800796,
+          -45.47164108
+        ]
+      },
+      "properties": {
+        "assetId": 100042740,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Hall Arm Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.4945599,
+          -44.69963357
+        ]
+      },
+      "properties": {
+        "assetId": 100085145,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Lindis Pass Historic Hotel Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.556431,
+          -44.52217803
+        ]
+      },
+      "properties": {
+        "assetId": 100042529,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Dart Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.892939,
+          -39.23370579
+        ]
+      },
+      "properties": {
+        "assetId": 100043678,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Lake Tutira Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.5465171,
+          -45.06744152
+        ]
+      },
+      "properties": {
+        "assetId": 100031419,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Twelve Mile Delta Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.1461848,
+          -38.94152742
+        ]
+      },
+      "properties": {
+        "assetId": 100044319,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Ohinepane Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.0924968,
+          -43.71795427
+        ]
+      },
+      "properties": {
+        "assetId": 100043563,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "White Horse Hill Campground",
+        "flush": "Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2910491,
+          -41.17970788
+        ]
+      },
+      "properties": {
+        "assetId": 100043483,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Wharehunga Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.1430829,
+          -44.1716497
+        ]
+      },
+      "properties": {
+        "assetId": 100064829,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Young Forks Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.7119896,
+          -37.04020036
+        ]
+      },
+      "properties": {
+        "assetId": 100044311,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Dancing Camp Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.2205832,
+          -38.95718766
+        ]
+      },
+      "properties": {
+        "assetId": 100043663,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Te Iringa Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.2231996,
+          -42.35020091
+        ]
+      },
+      "properties": {
+        "assetId": 100043485,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Marble Hill Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2248824,
+          -41.11135039
+        ]
+      },
+      "properties": {
+        "assetId": 100044428,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Schoolhouse Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.2109237,
+          -44.725026
+        ]
+      },
+      "properties": {
+        "assetId": 100042528,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Routeburn Flats Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.4296467,
+          -38.16614183
+        ]
+      },
+      "properties": {
+        "assetId": 100044419,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Humphries Bay Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6451604,
+          -37.0839389
+        ]
+      },
+      "properties": {
+        "assetId": 100044316,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Whangaiterenga Campsite",
+        "flush": "Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.7177548,
+          -38.56843807
+        ]
+      },
+      "properties": {
+        "assetId": 100031354,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Kakaho Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.1180851,
+          -41.17382446
+        ]
+      },
+      "properties": {
+        "assetId": 100066100,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Kenepuru Head Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.5415073,
+          -45.10369423
+        ]
+      },
+      "properties": {
+        "assetId": 100121279,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Beach Point at Walter Peak Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2702062,
+          -42.08511649
+        ]
+      },
+      "properties": {
+        "assetId": 100066490,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Molesworth Cob Cottage Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6871169,
+          -37.06805383
+        ]
+      },
+      "properties": {
+        "assetId": 100039994,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Billygoat Basin Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2384661,
+          -35.21763532
+        ]
+      },
+      "properties": {
+        "assetId": 100065351,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Urupukapuka Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.562355,
+          -38.51126281
+        ]
+      },
+      "properties": {
+        "assetId": 100031355,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Ngaherenga Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.9870246,
+          -44.46749631
+        ]
+      },
+      "properties": {
+        "assetId": 100065798,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Ahuriri Bridge Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.8902492,
+          -44.77556173
+        ]
+      },
+      "properties": {
+        "assetId": 100038550,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Homestead Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.1548112,
+          -42.80872933
+        ]
+      },
+      "properties": {
+        "assetId": 100043033,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Hans Bay - Lake Kaniere Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.1546972,
+          -44.00259201
+        ]
+      },
+      "properties": {
+        "assetId": 100043672,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Waihi Gorge Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.140431,
+          -46.98896419
+        ]
+      },
+      "properties": {
+        "assetId": 100030342,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "South Big Glory Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.8261753,
+          -39.13734219
+        ]
+      },
+      "properties": {
+        "assetId": 100066038,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Kaimanawa Road Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9052128,
+          -39.28410539
+        ]
+      },
+      "properties": {
+        "assetId": 100031359,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Mangawaiiti Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.7817981,
+          -45.40423679
+        ]
+      },
+      "properties": {
+        "assetId": 100065537,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Trotters Gorge Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.3499942,
+          -44.84371667
+        ]
+      },
+      "properties": {
+        "assetId": 100031418,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Kinloch Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0155885,
+          -40.84922551
+        ]
+      },
+      "properties": {
+        "assetId": 100065882,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Waiharakeke Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0376706,
+          -40.98229207
+        ]
+      },
+      "properties": {
+        "assetId": 100043769,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Apple Tree Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.5898577,
+          -38.11724737
+        ]
+      },
+      "properties": {
+        "assetId": 100043680,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Whitikau Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6301345,
+          -37.12268103
+        ]
+      },
+      "properties": {
+        "assetId": 100065596,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Shag Stream Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0708787,
+          -39.10924157
+        ]
+      },
+      "properties": {
+        "assetId": 100031361,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Whakahoro Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5986236,
+          -39.90204451
+        ]
+      },
+      "properties": {
+        "assetId": 100095962,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Simpsons Domain Campsite",
+        "flush": "Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.4337562,
+          -38.24410046
+        ]
+      },
+      "properties": {
+        "assetId": 100044418,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Hot Water Beach Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.206281,
+          -42.72371541
+        ]
+      },
+      "properties": {
+        "assetId": 100064665,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Loch Katrine Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9141566,
+          -39.2331696
+        ]
+      },
+      "properties": {
+        "assetId": 100042738,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "John Coull Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.4960231,
+          -38.28363626
+        ]
+      },
+      "properties": {
+        "assetId": 100043562,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Rerewhakaaitu, Brett Road Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6150481,
+          -41.12874017
+        ]
+      },
+      "properties": {
+        "assetId": 100065558,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Cobb River Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7775514,
+          -34.45231913
+        ]
+      },
+      "properties": {
+        "assetId": 100082533,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Pandora Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0049092,
+          -40.81860657
+        ]
+      },
+      "properties": {
+        "assetId": 100043766,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "T\u014dtaranui Campground",
+        "flush": "Non-Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.3905672,
+          -38.12292543
+        ]
+      },
+      "properties": {
+        "assetId": 100065879,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Boulders Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.8209806,
+          -44.86689162
+        ]
+      },
+      "properties": {
+        "assetId": 100039788,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Macetown Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0470005,
+          -41.39289983
+        ]
+      },
+      "properties": {
+        "assetId": 100030520,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Rarangi Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.4613526,
+          -35.49228157
+        ]
+      },
+      "properties": {
+        "assetId": 100031414,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Otamure Bay (Whananaki) Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6019556,
+          -37.04640605
+        ]
+      },
+      "properties": {
+        "assetId": 100038353,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Crosbies Hut Backcountry Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.3810068,
+          -44.01178683
+        ]
+      },
+      "properties": {
+        "assetId": 100065484,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Pleasant Flat Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.3633129,
+          -36.1718991
+        ]
+      },
+      "properties": {
+        "assetId": 100065669,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Akapoua Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7486934,
+          -41.8882464
+        ]
+      },
+      "properties": {
+        "assetId": 100086346,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Angelus Hut Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.4432218,
+          -42.04324446
+        ]
+      },
+      "properties": {
+        "assetId": 100031364,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Ballroom Overhang Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9230983,
+          -41.35195763
+        ]
+      },
+      "properties": {
+        "assetId": 100044321,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Catchpool Valley Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.1373687,
+          -44.82780144
+        ]
+      },
+      "properties": {
+        "assetId": 100064831,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Greenstone Saddle Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.5087987,
+          -45.39891255
+        ]
+      },
+      "properties": {
+        "assetId": 100064957,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Iris Burn Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0079324,
+          -44.99949692
+        ]
+      },
+      "properties": {
+        "assetId": 100065487,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Deer Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.1233929,
+          -42.67586148
+        ]
+      },
+      "properties": {
+        "assetId": 100043032,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Goldsborough Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2519313,
+          -41.07628951
+        ]
+      },
+      "properties": {
+        "assetId": 100044092,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Cannibal Cove Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.928988,
+          -36.76715738
+        ]
+      },
+      "properties": {
+        "assetId": 100065442,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Home Bay, Motutapu Island Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.6746572,
+          -45.40483578
+        ]
+      },
+      "properties": {
+        "assetId": 100065044,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Brod Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.6811231,
+          -44.84264845
+        ]
+      },
+      "properties": {
+        "assetId": 100065481,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Skippers Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0042678,
+          -40.80272455
+        ]
+      },
+      "properties": {
+        "assetId": 100043757,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Anapai Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.3813189,
+          -44.73195191
+        ]
+      },
+      "properties": {
+        "assetId": 100136665,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Diamond Lake Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.1125974,
+          -41.20458491
+        ]
+      },
+      "properties": {
+        "assetId": 100044101,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Ratimera Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.634193,
+          -37.10016087
+        ]
+      },
+      "properties": {
+        "assetId": 100044159,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Hotoritori Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.9940024,
+          -40.79091425
+        ]
+      },
+      "properties": {
+        "assetId": 100043765,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Mutton Cove Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.928637,
+          -44.52356925
+        ]
+      },
+      "properties": {
+        "assetId": 100031568,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Otaio Gorge Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.4397491,
+          -40.89466463
+        ]
+      },
+      "properties": {
+        "assetId": 100042230,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Aorere Shelter Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.3864591,
+          -42.51663883
+        ]
+      },
+      "properties": {
+        "assetId": 100121059,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Boyle Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7059895,
+          -39.08391287
+        ]
+      },
+      "properties": {
+        "assetId": 100065802,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Everetts Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6791685,
+          -39.20868198
+        ]
+      },
+      "properties": {
+        "assetId": 100064828,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Waihohonu Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.7478911,
+          -42.98786678
+        ]
+      },
+      "properties": {
+        "assetId": 100043674,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Hawdon Shelter Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.3531494,
+          -40.89077926
+        ]
+      },
+      "properties": {
+        "assetId": 100042231,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Gouland Downs Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5461171,
+          -40.80798898
+        ]
+      },
+      "properties": {
+        "assetId": 100044517,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Kiriwhakapapa Campsite",
+        "flush": "Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.5730892,
+          -44.99811782
+        ]
+      },
+      "properties": {
+        "assetId": 100065480,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Moke Lake Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0649013,
+          -41.20091935
+        ]
+      },
+      "properties": {
+        "assetId": 100066093,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Black Rock Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5394771,
+          -39.20208155
+        ]
+      },
+      "properties": {
+        "assetId": 100065591,
+        "category": "Serviced",
+        "type": "campsites",
+        "title": "Whakapapa Holiday Park",
+        "flush": "Non-Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0466036,
+          -40.88900745
+        ]
+      },
+      "properties": {
+        "assetId": 100065889,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "OnetaHuti Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7400984,
+          -42.21153645
+        ]
+      },
+      "properties": {
+        "assetId": 100042930,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Lake Tennyson Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0318654,
+          -44.92750138
+        ]
+      },
+      "properties": {
+        "assetId": 100065490,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Upper Eglinton Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.9465852,
+          -43.63115961
+        ]
+      },
+      "properties": {
+        "assetId": 100042835,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Welcome Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0697444,
+          -41.20537831
+        ]
+      },
+      "properties": {
+        "assetId": 100066101,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Kumutoto Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.974754,
+          -40.78852438
+        ]
+      },
+      "properties": {
+        "assetId": 100065883,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Whariwharangi Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.7063654,
+          -41.45852062
+        ]
+      },
+      "properties": {
+        "assetId": 100066491,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Onamalutu Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.2869121,
+          -44.97982987
+        ]
+      },
+      "properties": {
+        "assetId": 100044578,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Danseys Pass Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.6734364,
+          -39.14135756
+        ]
+      },
+      "properties": {
+        "assetId": 100044056,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Glenfalls Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.873878,
+          -41.0025963
+        ]
+      },
+      "properties": {
+        "assetId": 100044060,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Waiona Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.308318,
+          -38.2330462
+        ]
+      },
+      "properties": {
+        "assetId": 100043677,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Anaura Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.1548352,
+          -38.96796677
+        ]
+      },
+      "properties": {
+        "assetId": 100031189,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Army Road Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0702127,
+          -41.35904344
+        ]
+      },
+      "properties": {
+        "assetId": 100066032,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Robin Hood Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.1742776,
+          -38.95398033
+        ]
+      },
+      "properties": {
+        "assetId": 100066039,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Kakapo Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0753887,
+          -41.27033398
+        ]
+      },
+      "properties": {
+        "assetId": 100065341,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Whatamango Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.3418011,
+          -36.48400698
+        ]
+      },
+      "properties": {
+        "assetId": 100044312,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Port Jackson Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.0564457,
+          -38.68253639
+        ]
+      },
+      "properties": {
+        "assetId": 100065801,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Te Taita A Makoro Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.2873062,
+          -44.16122921
+        ]
+      },
+      "properties": {
+        "assetId": 100064830,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Cameron Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.9416617,
+          -46.70944979
+        ]
+      },
+      "properties": {
+        "assetId": 100041142,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Lucky Beach Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.9411972,
+          -41.27164944
+        ]
+      },
+      "properties": {
+        "assetId": 100066483,
+        "category": "Serviced",
+        "type": "campsites",
+        "title": "Momorangi Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0506965,
+          -40.91694074
+        ]
+      },
+      "properties": {
+        "assetId": 100065885,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Bark Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.155597,
+          -38.75344402
+        ]
+      },
+      "properties": {
+        "assetId": 100043676,
+        "category": "Serviced",
+        "type": "campsites",
+        "title": "Waikaremoana Holiday Park",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.7924236,
+          -42.15645374
+        ]
+      },
+      "properties": {
+        "assetId": 100043031,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Slab Hut Creek Campsite",
+        "flush": "Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.2613855,
+          -44.44087524
+        ]
+      },
+      "properties": {
+        "assetId": 100065483,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Kidds Bush Reserve Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.2731624,
+          -44.89187584
+        ]
+      },
+      "properties": {
+        "assetId": 100132228,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Mid Caples Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0446602,
+          -39.07357433
+        ]
+      },
+      "properties": {
+        "assetId": 100044317,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Maharanui Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.999248,
+          -39.12933247
+        ]
+      },
+      "properties": {
+        "assetId": 100031357,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Mangapapa Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2336304,
+          -41.16952807
+        ]
+      },
+      "properties": {
+        "assetId": 100066094,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Blumine Island/Oruawairua Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.390178,
+          -36.4765219
+        ]
+      },
+      "properties": {
+        "assetId": 100065595,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Fletcher Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9358428,
+          -36.80361291
+        ]
+      },
+      "properties": {
+        "assetId": 100065443,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Motuihe Island Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0591965,
+          -40.95708945
+        ]
+      },
+      "properties": {
+        "assetId": 100043768,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Anchorage Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9326212,
+          -41.34253882
+        ]
+      },
+      "properties": {
+        "assetId": 100085686,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Graces Stream Campsite",
+        "flush": "Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.8177347,
+          -44.1076002
+        ]
+      },
+      "properties": {
+        "assetId": 100040090,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Temple Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.4126094,
+          -35.44215161
+        ]
+      },
+      "properties": {
+        "assetId": 100065352,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Waikahoa Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4794322,
+          -36.17177562
+        ]
+      },
+      "properties": {
+        "assetId": 100044956,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Harataonga Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.1763541,
+          -44.76422998
+        ]
+      },
+      "properties": {
+        "assetId": 100030221,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Lake Mackenzie Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6175611,
+          -41.69399144
+        ]
+      },
+      "properties": {
+        "assetId": 100065344,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Kawatiri Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.633953,
+          -43.06020104
+        ]
+      },
+      "properties": {
+        "assetId": 100044562,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lake Ianthe Matahi Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.3942618,
+          -39.16169619
+        ]
+      },
+      "properties": {
+        "assetId": 100030172,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Mangatainoka Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.9236321,
+          -41.04795182
+        ]
+      },
+      "properties": {
+        "assetId": 100094138,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Moss Bush Campsite",
+        "flush": "Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2044605,
+          -41.72547831
+        ]
+      },
+      "properties": {
+        "assetId": 100066489,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Marfells Beach Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4697921,
+          -39.18005851
+        ]
+      },
+      "properties": {
+        "assetId": 100044154,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Mangahuia Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.1303681,
+          -38.7860251
+        ]
+      },
+      "properties": {
+        "assetId": 100065878,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Rosie Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.4029284,
+          -40.90077671
+        ]
+      },
+      "properties": {
+        "assetId": 100030548,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Perry Saddle Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.3854226,
+          -38.29072606
+        ]
+      },
+      "properties": {
+        "assetId": 100065881,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Manganuku Campsite",
+        "flush": "Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5837936,
+          -41.44206115
+        ]
+      },
+      "properties": {
+        "assetId": 100043947,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Siberia Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.9083705,
+          -40.8445691
+        ]
+      },
+      "properties": {
+        "assetId": 100065807,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Penguin Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7277231,
+          -38.66351579
+        ]
+      },
+      "properties": {
+        "assetId": 100044538,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Sanctuary Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6622104,
+          -37.07102195
+        ]
+      },
+      "properties": {
+        "assetId": 100000746,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Totara Flat Campsite: Coromandel",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.5625961,
+          -42.94066474
+        ]
+      },
+      "properties": {
+        "assetId": 100064685,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Avalanche Creek Shelter Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7164522,
+          -34.43769575
+        ]
+      },
+      "properties": {
+        "assetId": 100065348,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Tapotupotu Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.6118302,
+          -46.54501713
+        ]
+      },
+      "properties": {
+        "assetId": 100031416,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Purakaunui Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0180987,
+          -46.88323204
+        ]
+      },
+      "properties": {
+        "assetId": 100042716,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "North Arm Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8684343,
+          -41.22147588
+        ]
+      },
+      "properties": {
+        "assetId": 100044100,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Putanui Point Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.3977088,
+          -42.40483627
+        ]
+      },
+      "properties": {
+        "assetId": 100044539,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Deer Valley Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6568626,
+          -37.07214224
+        ]
+      },
+      "properties": {
+        "assetId": 100044314,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Wainora Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.9561434,
+          -44.14350594
+        ]
+      },
+      "properties": {
+        "assetId": 100043671,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Pioneer Park Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.6596751,
+          -44.47581528
+        ]
+      },
+      "properties": {
+        "assetId": 100042530,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Aspiring Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.7193793,
+          -46.74574755
+        ]
+      },
+      "properties": {
+        "assetId": 100041144,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "West Ruggedy Beach Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.9718218,
+          -41.19005943
+        ]
+      },
+      "properties": {
+        "assetId": 100066099,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Ferndale Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.1454204,
+          -44.87175949
+        ]
+      },
+      "properties": {
+        "assetId": 100132227,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "McKellar Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.4473006,
+          -40.85027175
+        ]
+      },
+      "properties": {
+        "assetId": 100065884,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Brown Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.8286237,
+          -43.40805133
+        ]
+      },
+      "properties": {
+        "assetId": 100066041,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Gillespies Beach Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.7823902,
+          -41.15009305
+        ]
+      },
+      "properties": {
+        "assetId": 100066484,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Nydia Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.8918551,
+          -40.94287224
+        ]
+      },
+      "properties": {
+        "assetId": 100038588,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Canaan Downs Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.0978838,
+          -44.20673565
+        ]
+      },
+      "properties": {
+        "assetId": 100084505,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Lake Poaka Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.9285202,
+          -41.27326968
+        ]
+      },
+      "properties": {
+        "assetId": 100044090,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Aussie Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0247753,
+          -40.98851126
+        ]
+      },
+      "properties": {
+        "assetId": 100043773,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Tinline Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.8273937,
+          -41.79783618
+        ]
+      },
+      "properties": {
+        "assetId": 100085451,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "West Bay Campsite - Jetty zone",
+        "flush": "Non-Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.2252293,
+          -43.29861941
+        ]
+      },
+      "properties": {
+        "assetId": 100044561,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Otto/MacDonalds Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0043284,
+          -40.82288564
+        ]
+      },
+      "properties": {
+        "assetId": 100088343,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "T\u014dtaranui Great Walk Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.9407799,
+          -41.25226503
+        ]
+      },
+      "properties": {
+        "assetId": 100066097,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Davies Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.4599811,
+          -35.93379305
+        ]
+      },
+      "properties": {
+        "assetId": 100065350,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Uretiti Beach Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6893779,
+          -39.15878868
+        ]
+      },
+      "properties": {
+        "assetId": 100044157,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Oturere Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.5108703,
+          -41.50109726
+        ]
+      },
+      "properties": {
+        "assetId": 100031409,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Mill Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.1102092,
+          -40.98690858
+        ]
+      },
+      "properties": {
+        "assetId": 100042744,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Heaphy Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9588675,
+          -39.17119422
+        ]
+      },
+      "properties": {
+        "assetId": 100044318,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Ohauora Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.7838881,
+          -43.08999217
+        ]
+      },
+      "properties": {
+        "assetId": 100044421,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lake Pearson (Moana Rua) Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0838945,
+          -46.83664923
+        ]
+      },
+      "properties": {
+        "assetId": 100065045,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Port William Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.2661543,
+          -43.88998558
+        ]
+      },
+      "properties": {
+        "assetId": 100043670,
+        "category": "Serviced",
+        "type": "campsites",
+        "title": "Peel Forest Campground",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0922439,
+          -37.99375027
+        ]
+      },
+      "properties": {
+        "assetId": 100084995,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Pahautea Hut Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.8633791,
+          -34.42814531
+        ]
+      },
+      "properties": {
+        "assetId": 100065347,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Kapowairua (Spirits Bay) Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8409651,
+          -40.840549
+        ]
+      },
+      "properties": {
+        "assetId": 100065806,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Mill Arm Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4218291,
+          -36.14512248
+        ]
+      },
+      "properties": {
+        "assetId": 100043558,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Whangapoua Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.3281672,
+          -36.52479632
+        ]
+      },
+      "properties": {
+        "assetId": 100065594,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Fantail Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.4355623,
+          -35.16903947
+        ]
+      },
+      "properties": {
+        "assetId": 100039423,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Raetea North Side Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.1025412,
+          -41.10952921
+        ]
+      },
+      "properties": {
+        "assetId": 100035410,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "K\u014dhaihai Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0328895,
+          -39.19811795
+        ]
+      },
+      "properties": {
+        "assetId": 100042950,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Johnsons Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.4417182,
+          -39.37122668
+        ]
+      },
+      "properties": {
+        "assetId": 100064946,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Lawrence Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0188608,
+          -40.8647841
+        ]
+      },
+      "properties": {
+        "assetId": 100043764,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Awaroa Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8546237,
+          -41.26030343
+        ]
+      },
+      "properties": {
+        "assetId": 100044097,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Moetapu Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.4931651,
+          -46.4583626
+        ]
+      },
+      "properties": {
+        "assetId": 100031417,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Tawanui Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0362552,
+          -37.96209357
+        ]
+      },
+      "properties": {
+        "assetId": 100038658,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Central Clearing Campsite",
+        "flush": "Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4801645,
+          -40.90666847
+        ]
+      },
+      "properties": {
+        "assetId": 100044322,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Holdsworth Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0356119,
+          -39.42502575
+        ]
+      },
+      "properties": {
+        "assetId": 100031360,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Ngaporo Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0318746,
+          -41.08065938
+        ]
+      },
+      "properties": {
+        "assetId": 100066487,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Waimaru Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7033425,
+          -34.50665374
+        ]
+      },
+      "properties": {
+        "assetId": 100082534,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Twilight Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8657499,
+          -41.25784064
+        ]
+      },
+      "properties": {
+        "assetId": 100037922,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Matiu/Somes Island Campsite",
+        "flush": "Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.8397694,
+          -38.60930038
+        ]
+      },
+      "properties": {
+        "assetId": 100043933,
+        "category": "Basic",
+        "type": "campsites",
+        "title": "Mid Okahu Road Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.966082,
+          -45.10136632
+        ]
+      },
+      "properties": {
+        "assetId": 100065491,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Walker Creek Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7605978,
+          -37.88639276
+        ]
+      },
+      "properties": {
+        "assetId": 100085474,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Matat\u0101 Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0823323,
+          -34.72511375
+        ]
+      },
+      "properties": {
+        "assetId": 100065346,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Rarawa Beach Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.7384502,
+          -37.1054751
+        ]
+      },
+      "properties": {
+        "assetId": 100065592,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Broken Hills Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.9727448,
+          -41.2225966
+        ]
+      },
+      "properties": {
+        "assetId": 100066335,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Mistletoe Bay Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - treated, suitable for drinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.1749978,
+          -45.2680102
+        ]
+      },
+      "properties": {
+        "assetId": 100044152,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Mavora Lakes Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.5087572,
+          -44.55856891
+        ]
+      },
+      "properties": {
+        "assetId": 100038503,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Shelter Rock Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6504436,
+          -37.07835079
+        ]
+      },
+      "properties": {
+        "assetId": 100044158,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Booms Flat Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from stream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.3902739,
+          -40.9960276
+        ]
+      },
+      "properties": {
+        "assetId": 100031363,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Waiohine Gorge Campsite",
+        "flush": "Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.2144342,
+          -41.22737208
+        ]
+      },
+      "properties": {
+        "assetId": 100044098,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Ngaruru Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.5892494,
+          -43.00203184
+        ]
+      },
+      "properties": {
+        "assetId": 100065052,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Klondyke Corner Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9667,
+          -39.28183935
+        ]
+      },
+      "properties": {
+        "assetId": 100031358,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Mangapurua Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8848244,
+          -41.10968099
+        ]
+      },
+      "properties": {
+        "assetId": 100044096,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Jacobs Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.106843,
+          -41.0442819
+        ]
+      },
+      "properties": {
+        "assetId": 100039958,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Katipo Creek Shelter Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5028834,
+          -36.27039426
+        ]
+      },
+      "properties": {
+        "assetId": 100044957,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Medlands Beach Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.5031461,
+          -38.18501393
+        ]
+      },
+      "properties": {
+        "assetId": 100044420,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Lake Tarawera Outlet Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0809489,
+          -39.21124338
+        ]
+      },
+      "properties": {
+        "assetId": 100042951,
+        "category": "Backcountry",
+        "type": "campsites",
+        "title": "Mangapurua Trig Campsite",
+        "flush": "Non-Flush",
+        "water": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0494861,
+          -41.19530493
+        ]
+      },
+      "properties": {
+        "assetId": 100044059,
+        "category": "Standard",
+        "type": "campsites",
+        "title": "Nikau Cove Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.0474464,
+          -40.97203705
+        ]
+      },
+      "properties": {
+        "assetId": 100043767,
+        "category": "Great Walk",
+        "type": "campsites",
+        "title": "Akersten Bay Campsite",
+        "flush": "Non-Flush",
+        "water": "Water from tap - not treated, boil before use"
+      }
+    }
+  ]
+}
