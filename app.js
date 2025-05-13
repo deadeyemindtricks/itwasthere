@@ -5,13 +5,25 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19
 }).addTo(map);
 
-// Icons
 const icons = {
-  toilet: L.divIcon({ className: 'custom-icon toilet-icon', html: '<svg class="lucide" width="20" height="20"><use href="#lucide-toilet"/></svg>' }),
-  waterfountain: L.divIcon({ className: 'custom-icon water-icon', html: '<svg class="lucide" width="20" height="20"><use href="#lucide-droplet"/></svg>' }),
-  hut: L.divIcon({ className: 'custom-icon hut-icon', html: '<svg class="lucide" width="20" height="20"><use href="#lucide-home"/></svg>' }),
-  campsite: L.divIcon({ className: 'custom-icon campsite-icon', html: '<svg class="lucide" width="20" height="20"><use href="#lucide-tent"/></svg>' })
+  toilet: L.divIcon({
+    className: 'custom-icon toilet-icon',
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="currentColor" viewBox="0 0 24 24" class="lucide lucide-toilet-icon"><path d="M7 12h13a1 1 0 0 1 1 1 5 5 0 0 1-5 5h-.598a.5.5 0 0 0-.424.765l1.544 2.47a.5.5 0 0 1-.424.765H5.402a.5.5 0 0 1-.424-.765L7 18"/><path d="M8 18a5 5 0 0 1-5-5V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8"/></svg>`
+  }),
+  waterfountain: L.divIcon({
+    className: 'custom-icon water-icon',
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="currentColor" viewBox="0 0 24 24" class="lucide lucide-droplet-icon"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>`
+  }),
+  hut: L.divIcon({
+    className: 'custom-icon hut-icon',
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-home"><path d="M3 9L12 2l9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></svg>`
+  }),
+  campsite: L.divIcon({
+    className: 'custom-icon campsite-icon',
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tent"><path d="M19 20 10 4"/><path d="m5 20 9-16"/><path d="M3 20h18"/></svg>`
+  })
 };
+
 
 // Layer containers
 const layers = {
@@ -130,15 +142,15 @@ toggleContainer.onAdd = function () {
   div.style.flexDirection = 'column';
 
   const types = [
-    { type: 'toilet', icon: 'toilet' },
-    { type: 'waterfountain', icon: 'droplet' },
-    { type: 'hut', icon: 'home' },
-    { type: 'campsite', icon: 'tent' }
+    { type: 'toilet', icon: icons.toilet.options.html },
+    { type: 'waterfountain', icon: icons.waterfountain.options.html },
+    { type: 'hut', icon: icons.hut.options.html },
+    { type: 'campsite', icon: icons.campsite.options.html }
   ];
 
   types.forEach(({ type, icon }) => {
     const btn = L.DomUtil.create('button', '', div);
-    btn.innerHTML = `<svg class="lucide" width="20" height="20"><use href="#lucide-${icon}"/></svg>`;
+    btn.innerHTML = icon;
     btn.style.padding = '6px';
     btn.style.cursor = 'pointer';
     btn.style.background = '#fff';
